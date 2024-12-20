@@ -1,8 +1,8 @@
 # Predicting the outcome of a League of Legends game based on Champion-Player Experience
 
 First of all, this project is heavily inspired on this [research](https://arxiv.org/abs/2108.02799#:~:text=Using%20a%20deep%20neural%20network,for%20playing%20LoL%20and%20matchmaking.). So shoutout to them.
-
-## Preview
+Second of all, this is not my original code or repository. Any refernces saying "I" refer to @reneleogp and the original project which can be found at: https://github.com/reneleogp/ML-Prediction-LoL
+## Preview 
 
 I implemented a two Machine Learning algorithms to determinate the outcome of a League of Legends game based on Player-Champion Experience. I used more than 16k matches from two different servers, in order to make the training and predictions. My best result was 91% of accuracy using GBOOST.
 
