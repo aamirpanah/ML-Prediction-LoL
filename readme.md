@@ -112,6 +112,8 @@ In future work I would like to add the role experience as a feature.
 
 I did a simple UI using streamlit under the src/app.py you can run it by installing streamlit package and with the command `streamlit run "your_path_to_app.py"`. I get the last match from [u.gg](https://u.gg/) API.
 
+PS: I changed some of the requirements in the requirements.txt so that everything would work but you still may get errors while installing. Use a clean installation of python 3.8 to ensure everything works smoothly. I tested python 3.10 and 3.12 and there are errors with the scikit-learn when using the saved model. 
+
 
 
 
