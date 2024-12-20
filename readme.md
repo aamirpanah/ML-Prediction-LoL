@@ -1,10 +1,10 @@
 # Predicting the outcome of a League of Legends game based on Champion-Player Experience
 
-First of all, this project is heavily inspired on this [research](https://arxiv.org/abs/2108.02799#:~:text=Using%20a%20deep%20neural%20network,for%20playing%20LoL%20and%20matchmaking.). So shoutout to them.
+First of all, this project is heavily inspired on this [research](https://arxiv.org/abs/2108.02799#:~:text=Using%20a%20deep%20neural%20network,for%20playing%20LoL%20and%20matchmaking.). Second of all, this is not my original project! Go check out @reneleogp and https://github.com/reneleogp/ML-Prediction-LoL. This is an update for the codebase so that it works with the new "tagline" system introduced by Riot. Currently the scripts to gather and process new data to create new models are not working. I might fix them if I'm interested enough but I just really wanted to be able to use the old model on live or past games in NA. Please note it only works for NA, however any of yall can find where I hard coded the NA string and fix it ;) For my own bs purposes, I got enough of a kick out of what's presented here XD.
 
 ## Preview
 
-I implemented a two Machine Learning algorithms to determinate the outcome of a League of Legends game based on Player-Champion Experience. I used more than 16k matches from two different servers, in order to make the training and predictions. My best result was 91% of accuracy using GBOOST.
+I implemented two Machine Learning algorithms to determinate the outcome of a League of Legends game based on Player-Champion Experience. I used more than 16k matches from two different servers, in order to make the training and predictions. My best result was 91% of accuracy using GBOOST.
 
 ## Introduction
 
